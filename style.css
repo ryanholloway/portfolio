@@ -45,8 +45,12 @@ header {
             width: 64px;
             margin-right: 20px;
             border-radius: 50%;
-
+            img{
+                position: relative;
+                left: 20px;
+            }
         }
+       
     }
     .logo-text{
         flex:1;
