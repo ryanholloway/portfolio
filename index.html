@@ -1,221 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Ryan Holloway</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="imgage/jpg" href="./images/logo.jpg">
-    <script src="./script.js"></script>	
-</head>
-<body>
-   <header>
-    <a href="#" class="logo-holder">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="imgage/jpg" href="./images/logo.jpg" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
         <div class="logo">
-            <img src="./images/logo.jpg" class="logo"/>
+          <img src="./images/logo.jpg" class="logo" />
         </div>
         <div class="logo-text">Ryan Holloway</div>
-    </a>
-        <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="mailto:hollowayrc@gmail.com" class="button">Contact Me</a>
-                    </li>
-                </ul>
-                <a href="#" class="mobile-toggle" onClick="toggleMobileMenu()">
-                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
-                      </svg>     
-                </a>
-
-        </nav>
-   </header>
-   <main>
-        <section class="hero container">
-            <div class="hero-blue">
-                <div>
-                    <h1><small>Hi I'm</small>
-                        Ryan Holloway
-                    </h1>
-                    <p>
-                        I am a dedicated computer games developer currently in my third year of college at SETU Carlow. I have a passion for creating immersive and engaging game experiences.
-                         I’ve worked with game engines such as Unity and Godot. I enjoy experimenting with different mechanics and building interactive worlds.
-                        I am continuously learning, developing my coding, and problem-solving skills, while also collaborating with others to bring game ideas to life.
-                        <span>I have been working with computers for over half my life and decided to pursue it as a job 3 years ago.
-                            </span>
-                    </p>
-                    <div class="call-to-action">
-                        <a href="./RyanHollowayCV.pdf" class="button white">
-                            View CV
-                        </a>
-                        <a href="mailto:hollowayrc@gmail.com" class="button white">
-                            Contact Me
-                        </a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://github.com/ryanholloway">
-                            <img src="./images/github.png" alt="github" width="48"/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/ryan-holloway-9406a0268/">
-                            <img src="./images/linkedin.png" alt="linkedin" width="48"/>
-                        </a>
-                        <a href="https://www.instagram.com/ryancholloway/">
-                            <img src="./images/instagram.png" alt="instagram" width="48"/>
-                        </a>
-                    </div>
-                </div>
-            </div>  
-        </section>
-        <section class="logos container">
-            <div class="marquee">
-                <div class="track">
-                    <img src="./images/html.png" alt="HTML" width="128"/>
-                    <img src="./images/javascript.png" alt="javascript" width="128"/>
-                    <img src="./images/css.png" alt="css" width="128"/>
-                    <img src="./images/cplusplus.png" alt="C++" width="128"/>
-                    <img src="./images/vscode.png" alt="vscode" width="128"/>
-                    <img src="./images/unity.png" alt="unity" width="128"/>
-                    <img src="./images/sfml.png" alt="sfml" width="128"/>
-                    <img src="./images/python.png" alt="python" width="128"/>
-                    <img src="./images/raylib.png" alt="raylib" width="128"/>
-                    <img src="./images/html.png" alt="HTML" width="128"/>
-                    <img src="./images/javascript.png" alt="javascript" width="128"/>
-                    <img src="./images/css.png" alt="css" width="128"/>
-                    <img src="./images/cplusplus.png" alt="C++" width="128"/>
-                    <img src="./images/vscode.png" alt="vscode" width="128"/>
-                    <img src="./images/unity.png" alt="unity" width="128"/>
-                    <img src="./images/sfml.png" alt="sfml" width="128"/>
-                    <img src="./images/python.png" alt="python" width="128"/>
-                    <img src="./images/raylib.png" alt="raylib" width="128"/>
-                </div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="mailto:hollowayrc@gmail.com" class="button">Contact Me</a>
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu()">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Hi I'm</small>
+              Ryan Holloway
+            </h1>
+            <p>
+              I am a dedicated computer games developer currently in my third
+              year of college at SETU Carlow. I have a passion for creating
+              immersive and engaging game experiences. I’ve worked with game
+              engines such as Unity and Godot. I enjoy experimenting with
+              different mechanics and building interactive worlds. I am
+              continuously learning, developing my coding, and problem-solving
+              skills, while also collaborating with others to bring game ideas
+              to life.
+              <span
+                >I have been working with computers for over half my life and
+                decided to pursue it as a job 3 years ago.
+              </span>
+            </p>
+            <div class="call-to-action">
+              <a href="./RyanHollowayCV.pdf" class="button white"> View CV </a>
+              <a href="mailto:hollowayrc@gmail.com" class="button white">
+                Contact Me
+              </a>
             </div>
-        </section>
-        <section class="skills container" id="skills">
-            <h2>
-                <small>About Me</small>
-                Skills
-            </h2>
-            <div class="holder-blue">
-                <div class="left-column">
-                    <h3>Frontend</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>C++</li>
-                        <li>C#</li>
-                        <li>Python</li>
-                    </ul>
-                </div>
-                <div class="right-column">
-                    <h3>A bit about me</h3>
-                    <p>As a third-year college student specializing in computer games development,
-                    I have gained solid experience with tools such as Unity and OpenGL. 
-                    I am proficient in C++, HTML, JavaScript and have a keen understanding of game design principles, AI programming, and physics simulation.
-                    I’ve worked on both 2D and 3D projects, where I’ve developed gameplay mechanics, optimized performance, and implemented shaders. 
-                    I am currently teaching myself Java and Python as I always want to improve my skills in programming
-                    </p>
-                
-                </div>
+            <div class="social-links">
+              <a href="https://github.com/ryanholloway">
+                <img src="./images/github.png" alt="github" width="48" />
+              </a>
+              <a href="https://www.linkedin.com/in/ryan-holloway-9406a0268/">
+                <img src="./images/linkedin.png" alt="linkedin" width="48" />
+              </a>
+              <a href="https://www.instagram.com/ryancholloway/">
+                <img src="./images/instagram.png" alt="instagram" width="48" />
+              </a>
             </div>
-        </section>
-        <section class="work-experience container">
-            <h2>
-                <small>Recent</small>
-                Work Experience
-            </h2>
-            <div class="jobs">
-                <article>
-                    <figure>
-                        <div>
-                            <img src="./images/oakpark.jpg" alt="Teagasc Carlow" width="100%"/>
-                            <figcaption>Teagasc Carlow</figcaption>
-                        </div>
-                    </figure>
-                    <h3>Teagasc - Temporary Seasonal Worker</h3>
-                    <div>June 2024 - July 2024</div>
-                    <p>This was a 6-week internship working with the Potato Research Group in Teagasc. A significant part of
-                        my role was carrying out potato virus testing using Enzyme-linked immunosorbent assay
-                        (ELISA). My role involved both field work and lab work.</p>
-                </article>
-                <article>
-                    <figure>
-                        <div>
-                            <img src="./images/MSD.jpg" alt="MSD" width="100%"/>
-                            <figcaption>MSD Carlow</figcaption>
-                        </div>
-                    </figure>
-                    <h3>MSD - Digital Manufacturing Operative Intern</h3>
-                    <div>June 2023 - August 2023</div>
-                    <p>During my internship my duties involved building laptops, setting up iPads, stock taking,
-                        network patching, mentoring and supporting a coworker on the Down Syndrome Ireland
-                        scheme. I worked closely with MSD Carlow's Global End User Support team which helped with IT services around the site</p>
-                </article>
-            </div>
-        </section>
-        <section class="projects container" id="projects">
-            <h2>
-                <small>Previously</small>
-                Completed Projects
-            </h2>
-            <div class="project">
-                <article>
-                    <figure>
-                        <div>
-                            <video id="video1" width="100%" controls= "controls">
-                                <source src="" type="video/mp4">
-                            </video>
-                        </div>
-                    </figure>
-                    <h3>Joint Module End of Year 2 Project</h3>
-                    <p>This project was a Joint project over 4 modules.
-                        I thoroughly enjoyed this project as the requirements, while many, weren't restrictive in how the game could be designed. The game that was developed, was a zombie survival shooter.
-                        It has life mechanics, such as thirst, which can be combated by searching the map for randomly generated water drops and health drops to survive.
-                    </p>
-                    <p>
-                        One of the main requirements was a Spatial Partition system. This is a cell based collision system which is used to do collision checking more efficiently.
-                        I worked with Candle for the first time in this as well. Candle is a lighting library which was great fun to get used to and produced some amazing 2D lighting effects.
-                        I also decided to go with a procedurally generated map using the Perlin Noise model. I then added a level editor (which was a requirement) and I am very proud of that.
-                    </p>
-                </article>
-                <article>
-                    <figure>
-                        <div>
-                            <video id="video2" width="100%" controls="controls">
-                                <source src="./videos/cuberunner.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                    </figure>
-                    <h3>3D Gameplay Programming End Of Year 2 Project</h3>
-                    <p>
-                        This Project was an interesting one. The brief we were given was that we had to make a cube game using OpenGL and SFML.
-                        This game had to be a scrolling game where only cubes of the same colour could interact. This was by far one of the more difficult projects I undertook,
-                        as I had no experience of OpenGL before Year 2 of college. I am very proud of the game that I made. I programmed it so you could play the game with keyboard but also with controller support.
-                        I added a sound track and sound effects for collection of cubes. I ended up getting a First Class Grade in that Module.
-                    </p>
-                    <p>
-                        This game has somewhat basic controls but controls that are intuitive and comfortable. One of the main things I worked on with the controls was controller support.
-                        Controller support within SFML is relatively simple. However, I didn't want to have two seperate input methods for everything, so I worked on my own Command Pattern so that the controller
-                        and the Keyboard can be used interchangebly within the game. I personally preferred playing the game with controller but both felt equally good.
-                    </p>
-                </article> 
-            </div>
-        </section>
-   </main>
-</body>
+          </div>
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./images/html.png" alt="HTML" width="128" />
+            <img src="./images/typescript.png" alt="typescript" width="128" />
+            <img src="./images/javascript.png" alt="javascript" width="128" />
+            <img src="./images/css.png" alt="css" width="128" />
+            <img src="./images/cplusplus.png" alt="C++" width="128" />
+            <img src="./images/vscode.png" alt="vscode" width="128" />
+            <img src="./images/unity.png" alt="unity" width="128" />
+            <img src="./images/sfml.png" alt="sfml" width="128" />
+            <img src="./images/python.png" alt="python" width="128" />
+            <img src="./images/raylib.png" alt="raylib" width="128" />
+            <img src="./images/mongodb.svg" alt="mongodb" width="128" />
+            <img src="./images/react.png" alt="react" width="128" />
+            <img src="./images/mysql.svg" alt="mysql" width="128" />
+            <img src="./images/sql.png" alt="sql" width="128" />
+            <img src="./images/csharp.png" alt="c#" width="128" />
+            <img src="./images/figma.png" alt="figma" height="128" />
+            <img src="./images/azuredevops.png" alt="azuredevops" width="128" />
+            <img src="./images/raylib.png" alt="raylib" width="128" />
+          </div>
+        </div>
+      </section>
+      <section class="skills container" id="skills">
+        <h2>
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>React</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>C++</li>
+              <li>C#</li>
+              <li>Python</li>
+            </ul>
+            <h3>Database</h3>
+            <ul>
+              <li>MongoDB</li>
+              <li>MySQL</li>
+              <li>GraphQL</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              As a third-year college student specializing in computer games
+              development, I have gained solid experience with tools such as
+              Unity and OpenGL. I am proficient in C++, HTML, JavaScript and
+              have a keen understanding of game design principles, AI
+              programming, and physics simulation. I’ve worked on both 2D and 3D
+              projects, where I’ve developed gameplay mechanics, optimized
+              performance, and implemented shaders. I am currently teaching
+              myself Java and Python as I always want to improve my skills in
+              programming
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="work-experience container">
+        <h2>
+          <small>Recent</small>
+          Work Experience
+        </h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img src="./images/netwatch.jpg" alt="netwatch" width="100%" />
+                <figcaption>Netwatch Carlow</figcaption>
+              </div>
+            </figure>
+            <h3>Netwatch - Software Engineering Intern</h3>
+            <div>January 2025 - Present</div>
+            <p>
+              As a Software Engineering Intern at Netwatch, I have been
+              entrusted with various projects and tasks that have significantly
+              enhanced my technical skills and industry knowledge. The most
+              impactful project during my internship has been the development of
+              a Progressive Web App (PWA), which I collaborated on alongside
+              another intern. This involved creating a scaled-down version of
+              the existing Web App in PWA form, enabling it to function
+              seamlessly as both a website and a native-like app within a single
+              codebase. This project required expertise in responsive design,
+              service worker implementation for offline functionality, and web
+              app manifests for native-like behavior. Additionally, I worked on
+              smaller .NET proof-of-concept projects, applying innovative
+              solutions to validate ideas and explore new functionalities.
+              Through these experiences, I have gained hands-on exposure to
+              modern web technologies, agile methodologies, and collaborative
+              development practices, preparing me for future challenges in
+              software engineering
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./images/oakpark.jpg"
+                  alt="Teagasc Carlow"
+                  width="100%"
+                />
+                <figcaption>Teagasc Carlow</figcaption>
+              </div>
+            </figure>
+            <h3>Teagasc - Temporary Seasonal Worker</h3>
+            <div>June 2024 - July 2024</div>
+            <p>
+              This was a 6-week internship working with the Potato Research
+              Group in Teagasc. A significant part of my role was carrying out
+              potato virus testing using Enzyme-linked immunosorbent assay
+              (ELISA). My role involved both field work and lab work.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img src="./images/MSD.jpg" alt="MSD" width="100%" />
+                <figcaption>MSD Carlow</figcaption>
+              </div>
+            </figure>
+            <h3>MSD - Digital Manufacturing Operative Intern</h3>
+            <div>June 2023 - August 2023</div>
+            <p>
+              During my internship my duties involved building laptops, setting
+              up iPads, stock taking, network patching, mentoring and supporting
+              a coworker on the Down Syndrome Ireland scheme. I worked closely
+              with MSD Carlow's Global End User Support team which helped with
+              IT services around the site
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="projects container" id="projects">
+        <h2>
+          <small>Previously</small>
+          Completed Projects
+        </h2>
+        <div class="project">
+          <article>
+            <figure>
+              <div>
+                <video id="video1" width="100%" controls="controls">
+                  <source src="./videos/zombiesurvivor.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </figure>
+            <h3>Joint Module End of Year 2 Project</h3>
+            <p>
+              This project was a Joint project over 4 modules. I thoroughly
+              enjoyed this project as the requirements, while many, weren't
+              restrictive in how the game could be designed. The game that was
+              developed, was a zombie survival shooter. It has life mechanics,
+              such as thirst, which can be combated by searching the map for
+              randomly generated water drops and health drops to survive.
+            </p>
+            <p>
+              One of the main requirements was a Spatial Partition system. This
+              is a cell based collision system which is used to do collision
+              checking more efficiently. I worked with Candle for the first time
+              in this as well. Candle is a lighting library which was great fun
+              to get used to and produced some amazing 2D lighting effects. I
+              also decided to go with a procedurally generated map using the
+              Perlin Noise model. I then added a level editor (which was a
+              requirement) and I am very proud of that.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <video id="video2" width="100%" controls="controls">
+                  <source src="./videos/cuberunner.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </figure>
+            <h3>3D Gameplay Programming End Of Year 2 Project</h3>
+            <p>
+              This Project was an interesting one. The brief we were given was
+              that we had to make a cube game using OpenGL and SFML. This game
+              had to be a scrolling game where only cubes of the same colour
+              could interact. This was by far one of the more difficult projects
+              I undertook, as I had no experience of OpenGL before Year 2 of
+              college. I am very proud of the game that I made. I programmed it
+              so you could play the game with keyboard but also with controller
+              support. I added a sound track and sound effects for collection of
+              cubes. I ended up getting a First Class Grade in that Module.
+            </p>
+            <p>
+              This game has somewhat basic controls but controls that are
+              intuitive and comfortable. One of the main things I worked on with
+              the controls was controller support. Controller support within
+              SFML is relatively simple. However, I didn't want to have two
+              seperate input methods for everything, so I worked on my own
+              Command Pattern so that the controller and the Keyboard can be
+              used interchangebly within the game. I personally preferred
+              playing the game with controller but both felt equally good.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
